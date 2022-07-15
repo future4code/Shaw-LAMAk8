@@ -1,35 +1,45 @@
 {
-   "name": "jest-template",
-   "version": "1.0.0",
-   "description": "",
-   "main": "index.js",
-   "scripts": {
-      "test": "jest",
-      "dev": "ts-node-dev --transpile-only --ignore-watch node_modules ./src/index.ts"
-   },
-   "author": "",
-   "license": "ISC",
-   "dependencies": {
-      "@types/bcrypt": "^5.0.0",
-      "@types/cors": "^2.8.12",
-      "@types/typescript": "^2.0.0",
-      "@types/uuid": "^8.3.4",
-      "@types/yup": "^0.29.14",
-      "bcrypt": "^5.0.1",
-      "cors": "^2.8.5",
-      "dotenv": "^8.2.0",
-      "knex": "^0.21.1",
-      "mysql": "^2.18.1",
-      "uuid": "^8.3.2",
-      "yup": "^0.32.11"
-   },
-   "devDependencies": {
-      "@types/jest": "^27.0.2",
-      "@types/knex": "^0.16.1",
-      "@types/node": "^14.0.6",
-      "jest": "^27.3.1",
-      "ts-jest": "^27.0.7",
-      "ts-node-dev": "^1.0.0-pre.44",
-      "typescript": "^3.9.10"
-   }
+  "name": "shaw-lamak8",
+  "version": "1.0.0",
+  "description": "Como você deve saber muito bem, o nosso querido chefinho Astrodev é uma pessoa com Networking incrível e ele conhece vários artistas estrelados. Além disso, ele também é um grande ~~megalomaníaco~~ visionário e está planejando fazer um grande evento: o **LAMA**, *Labenu Musical Awards*, um festival  com várias bandas famosas para a formatura da sua turma e, no final, vocês podem eleger a banda que mais gostaram! Entretanto, na opinião dele, vocês só serão merecedores se entregarem um sistema impecável que permita o gerenciamento completo desses shows.",
+  "main": "jest.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/future4code/Shaw-LAMAk8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/future4code/Shaw-LAMAk8/issues"
+  },
+  "homepage": "https://github.com/future4code/Shaw-LAMAk8#readme",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/knex": "^0.16.1",
+    "@types/uuid": "^8.3.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.1.0",
+    "mysql": "^2.18.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
 }
